@@ -81,7 +81,7 @@ console.log(typeof(balance))
 // document.getElementById("debit").value = a;
 // document.getElementById("balance").value = c;
 
-
+save()
 //  
 }
 function save(){
