@@ -21,9 +21,11 @@
         <label>Transaction:</label> <input id="transaction" type="text" required/>
         <label>Debit:</label> <input id="debit" type="number" required/>
         <label>Credit:</label> <input id="credit" type="number" required/>
-        <label>Old Balance:</label> <input id="balance" type="number" required />
+        <span id="endbal">End Balance:</span><span id="bal">0</span>
+  
     </form>
         <button onclick="commit()">COMMIT</button>
+        <button onclick="save()">Save</button>
         
     </div>
     </div>
@@ -47,7 +49,7 @@
             </ul>
         </div>
         <div class="section">
-            <h2>BALANCE (in Rs)</h2>
+            <h2>BALANCE (in</h2>
             <ul class="ul" id="mybalance">
                 <li class="balancelist">0</li>
             </ul>
